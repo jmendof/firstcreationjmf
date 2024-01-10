@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron&family=Roboto:wght@700&display=swap");
+
+:root{
+  --amarelo-principal: rgb(198, 151, 116);
+  --cor-fundo: rgb(99, 126, 118);
+  --cor-letras: rgb(248, 223, 212);
+
+  --font-primaria: "Open Sans", sans-serif; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color:var(--cor-fundo);
+}
+
+body {
+  box-sizing: border-box;
+}
+
+header {
+  background-color:var(--cor-fundo);
+  color: var(--cor-letras);
+  padding: 10px;
+}
+
+.cabecalho {
+  padding: 5% 0 0 9%;
+  display: flex;
+  flex-direction: row;
+  gap: 240px;
+  font-family:var(--font-primaria);
+}
+
+.cabecalho-home {
+  font-family:var(--font-primaria);
+  color: var(--amarelo-principal);
+}
+
+.cabecalho-sobre {
+  font-family:var(--font-primaria);
+  color: var(--amarelo-principal);
+}
+
+.cabecalho-projetos {
+  font-family:var(--font-primaria);
+  color:var(--amarelo-principal);
+}
+
+.cabecalho-contato {
+  font-family:var(--font-primaria);
+  color: var(--amarelo-principal)
+}
+
+main {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  margin: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+  width: 615px;
+}
+
+.saudacao {
+  font-size: 36px;
+  font-family:var(--font-primaria);
+  color: var(--amarelo-principal);
+}
+
+.sua_meta {
+  font-size: 24px;
+  font-family:var(--font-primaria);
+}
+
+.max_tec {
+  font-size: 24px;
+  font-family:var(--font-primaria);
+}
+
+img {
+  width: 480px;
+  padding: 10px;
+}
+
+strong {
+  color: var(--amarelo-principal);
+  
+}
+
+.rodape {
+  color: var(--cor-letras);
+  background-color:var(--cor-fundo);
+  padding: 15px;
+  font-family:var(--font-primaria);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
